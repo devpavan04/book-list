@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Ewert&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  background: #2a363b;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 2rem 1rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Ewert", cursive;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+
+.alert {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.error {
+  background: red;
+}
+
+.success {
+  background: green;
+}
+
+.inputStyle {
+  padding: 1rem 0;
+}
+
+input {
+  display: block;
+  font-size: 1.4rem;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(136, 134, 134);
+  padding: 2px 5px;
+}
+
+input[type="submit"] {
+  font-size: 1.4rem;
+  padding: 8px 20px;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+#book-form {
+  padding: 0 0.5rem;
+}
+
+.books {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.books .book-card {
+  padding: 0.5rem 1rem 1rem;
+  width: 300px;
+  margin: 1rem;
+  border-radius: 16px;
+  color: #000;
+  background: #99b898;
+}
+
+.books .book-card h2 {
+  padding: 0.3rem 0;
+  font-weight: 400;
+}
+
+.books .book-card i {
+  float: right;
+  cursor: pointer;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,15 @@
+input[type="text"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin: auto;
+}
+
+.books {
+  padding: 0;
+}
+
+.books .book-card {
+  width: 100%;
+}
